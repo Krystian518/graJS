@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/gamemanager.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/enemy.js"></script>
+</head>
+
+<body>
+    <div class="header">
+        <p>Play the greatest RPG ever to be made!</p>
+        <h2>Choose your character</h2>
+    </div>
+
+    <div class="interface">
+        <a href="#" onclick="GameManager.setGameStart('Warrior')">
+            <img src="images/avatar-player/warrior.jpg" alt="warrior">
+            <div>
+                <h3>Warrior</h3>
+                <p>Wojownik posiada większy poziom zdrowia oraz staminy, ale siła robi z niego powolnego ślimaka
+                </p>
+            </div>
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Rogue')">
+            <img src="images/avatar-player/rogue.jpg" alt="rogue">
+            <div>
+                <h3>Rogue</h3>
+                <p>Rogues mają dużo staminy i dużo szybkości, ale mają mało siły i zdrowia.
+                </p>
+            </div>
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Mage')">
+            <img src="images/avatar-player/mage.jpg" alt="mage">
+            <div>
+                <h3>Mage</h3>
+                <p>Magowie to totalne kocury. Mają obszarowy dmg i dużo biją, ale mają mało hp.
+                </p>
+            </div>
+        </a>
+
+        <a href="#" onclick="GameManager.setGameStart('Hunter')">
+            <img src="images/avatar-player/hunter.jpg" alt="hunter">
+            <div>
+                <h3>Hunter</h3>
+                <p>Urodzony łowca za wszelką cenę upoluje swoją zwierzynę pozostawiając ją bez żadnych szans.
+                </p>
+            </div>
+        </a>
+    </div>
+
+    <div class="actions">
+
+    </div>
+
+    <div class="arena">
+
+    </div>
+
+    <div class="enemy">
+
+    </div>
+
+
+    
+</body>
+
+</html>
